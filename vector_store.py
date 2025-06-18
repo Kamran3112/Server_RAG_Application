@@ -114,6 +114,7 @@ def search_similar_documents(query, file_id):
         print(f"[!] Error retrieving documents for {file_id}: {e}")
         return []
 
+
 # for delete chat history
 def delete_index(file_id: str):
     vectordb = Chroma(
