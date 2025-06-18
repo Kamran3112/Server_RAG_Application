@@ -29,7 +29,6 @@ User Query:
 Answer:
 """
 
-
     prompt = ChatPromptTemplate.from_template(prompt_template)
     chain = prompt | llm
     result = chain.invoke({"user_query": user_query, "document_context": context_text, "chat_history": history_text})
