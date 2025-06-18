@@ -9,7 +9,6 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 Embedding_model = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en")
 
-
 # Load embedding model from Ollama
 # embedding_model = OllamaEmbeddings(model="deepseek-r1:1.5b", base_url=OLLAMA_BASE_URL)
 # Text splitter
